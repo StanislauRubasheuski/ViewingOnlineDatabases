@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		84D664BA20BC75D90041E61F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664B920BC75D90041E61F /* AppDelegate.swift */; };
-		84D664BC20BC75D90041E61F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664BB20BC75D90041E61F /* ViewController.swift */; };
+		84D664BC20BC75D90041E61F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664BB20BC75D90041E61F /* LoginViewController.swift */; };
 		84D664BF20BC75D90041E61F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D664BD20BC75D90041E61F /* Main.storyboard */; };
 		84D664C120BC75DD0041E61F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D664C020BC75DD0041E61F /* Assets.xcassets */; };
 		84D664C420BC75DD0041E61F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D664C220BC75DD0041E61F /* LaunchScreen.storyboard */; };
+		84D664CC20BD5D3B0041E61F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664CB20BD5D3B0041E61F /* TableViewController.swift */; };
+		84D664CE20BD735E0041E61F /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664CD20BD735E0041E61F /* DescriptionViewController.swift */; };
+		84D664D120BDD8C40041E61F /* ValidationAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664D020BDD8C40041E61F /* ValidationAttributes.swift */; };
+		84D664D320BDD9C10041E61F /* DataAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664D220BDD9C10041E61F /* DataAttributes.swift */; };
+		84D664D720BDDF3C0041E61F /* DescriptionAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664D620BDDF3C0041E61F /* DescriptionAttributes.swift */; };
+		84D664DB20BDFB050041E61F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664DA20BDFB050041E61F /* LoginViewModel.swift */; };
+		84D664DD20BE0E740041E61F /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664DC20BE0E740041E61F /* TableViewModel.swift */; };
+		84D664DF20BE8EA40041E61F /* DescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D664DE20BE8EA40041E61F /* DescriptionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84D664B620BC75D90041E61F /* ViewingOnlineDatabases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewingOnlineDatabases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D664B920BC75D90041E61F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84D664BB20BC75D90041E61F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D664BB20BC75D90041E61F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		84D664BE20BC75D90041E61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D664C020BC75DD0041E61F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D664C320BC75DD0041E61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D664C520BC75DD0041E61F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D664CB20BD5D3B0041E61F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84D664CD20BD735E0041E61F /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		84D664D020BDD8C40041E61F /* ValidationAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationAttributes.swift; sourceTree = "<group>"; };
+		84D664D220BDD9C10041E61F /* DataAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAttributes.swift; sourceTree = "<group>"; };
+		84D664D620BDDF3C0041E61F /* DescriptionAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionAttributes.swift; sourceTree = "<group>"; };
+		84D664DA20BDFB050041E61F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84D664DC20BE0E740041E61F /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		84D664DE20BE8EA40041E61F /* DescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,54 @@
 		84D664B820BC75D90041E61F /* ViewingOnlineDatabases */ = {
 			isa = PBXGroup;
 			children = (
-				84D664B920BC75D90041E61F /* AppDelegate.swift */,
-				84D664BB20BC75D90041E61F /* ViewController.swift */,
+				84D664D520BDDAFF0041E61F /* SupportFiles */,
+				84D664D420BDDAC80041E61F /* Controllers */,
+				84D664D920BDFA830041E61F /* ViewModels */,
+				84D664CF20BDD89C0041E61F /* Structs */,
 				84D664BD20BC75D90041E61F /* Main.storyboard */,
-				84D664C020BC75DD0041E61F /* Assets.xcassets */,
-				84D664C220BC75DD0041E61F /* LaunchScreen.storyboard */,
 				84D664C520BC75DD0041E61F /* Info.plist */,
 			);
 			path = ViewingOnlineDatabases;
+			sourceTree = "<group>";
+		};
+		84D664CF20BDD89C0041E61F /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				84D664D020BDD8C40041E61F /* ValidationAttributes.swift */,
+				84D664D220BDD9C10041E61F /* DataAttributes.swift */,
+				84D664D620BDDF3C0041E61F /* DescriptionAttributes.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		84D664D420BDDAC80041E61F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84D664BB20BC75D90041E61F /* LoginViewController.swift */,
+				84D664CB20BD5D3B0041E61F /* TableViewController.swift */,
+				84D664CD20BD735E0041E61F /* DescriptionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84D664D520BDDAFF0041E61F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84D664B920BC75D90041E61F /* AppDelegate.swift */,
+				84D664C020BC75DD0041E61F /* Assets.xcassets */,
+				84D664C220BC75DD0041E61F /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		84D664D920BDFA830041E61F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84D664DA20BDFB050041E61F /* LoginViewModel.swift */,
+				84D664DC20BE0E740041E61F /* TableViewModel.swift */,
+				84D664DE20BE8EA40041E61F /* DescriptionViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D664BC20BC75D90041E61F /* ViewController.swift in Sources */,
+				84D664D320BDD9C10041E61F /* DataAttributes.swift in Sources */,
+				84D664BC20BC75D90041E61F /* LoginViewController.swift in Sources */,
+				84D664CE20BD735E0041E61F /* DescriptionViewController.swift in Sources */,
+				84D664D720BDDF3C0041E61F /* DescriptionAttributes.swift in Sources */,
+				84D664DB20BDFB050041E61F /* LoginViewModel.swift in Sources */,
+				84D664CC20BD5D3B0041E61F /* TableViewController.swift in Sources */,
+				84D664DD20BE0E740041E61F /* TableViewModel.swift in Sources */,
+				84D664DF20BE8EA40041E61F /* DescriptionViewModel.swift in Sources */,
+				84D664D120BDD8C40041E61F /* ValidationAttributes.swift in Sources */,
 				84D664BA20BC75D90041E61F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
